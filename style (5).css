@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    background-color: bisque;
+}
+#div1{
+    width: 70%;
+    
+    height: auto;
+}
+#div2{
+    width: 30%;
+    background-color: white;
+    height: 300px;
+    text-align: center;
+}
+#product{
+    width: 30%;
+    height: 350px;
+    position: relative;
+}
+#add{
+    padding: 5px;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    top: 53%;
+    left: 30%;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+img{
+    border-radius: 8px;
+}
